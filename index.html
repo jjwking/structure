@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>비계 구조검토 의뢰 체크리스트</title>
+  <title>비계 구조검토 의뢰 체크리스트 - 강동엔지니어링</title>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -316,8 +316,12 @@
 <div class="container">
 
   <header>
+    <div style="font-size:0.8rem; opacity:0.7; margin-bottom:4px;">(주)이필</div>
     <h1>비계 구조검토 의뢰 체크리스트</h1>
-    <p>Scaffolding Structural Review Request Checklist &nbsp;|&nbsp; 작성일: <span id="today"></span></p>
+    <p>Scaffolding Structural Review Request Checklist</p>
+    <p style="margin-top:10px; font-size:0.88rem; background:rgba(255,255,255,0.12); border-radius:6px; padding:10px 14px; line-height:1.7;">
+      📋 아시는 항목만 작성해 주셔도 됩니다. 모르시는 항목은 비워두셔도 무방하며, 담당자가 확인 후 안내드리겠습니다.
+    </p>
   </header>
 
   <!-- 진행률 -->
@@ -444,24 +448,24 @@
 
   <!-- 구조검토 체크리스트 -->
   <div class="card" style="border-top: 1px solid #dde3ec;">
-    <div class="section-title">4. 구조검토 항목 체크리스트 <span class="badge badge-req">★ 필수</span></div>
+    <div class="section-title">4. 구조검토 항목 체크리스트 </div>
 
     <div style="margin-bottom:16px;">
       <div style="font-size:0.82rem; color:#888; margin-bottom:8px;">▸ 하중 검토</div>
       <div class="checklist">
-        <div class="check-item required">
+        <div class="check-item">
           <input type="checkbox" id="c1" class="chk">
           <label for="c1">고정하중(자중) 산정 자료 준비 완료
             <span class="sub">비계 자재 무게, 발판 무게 등 포함</span>
           </label>
         </div>
-        <div class="check-item required">
+        <div class="check-item">
           <input type="checkbox" id="c2" class="chk">
           <label for="c2">활하중(작업하중) 산정 완료
             <span class="sub">작업자 하중, 자재 적재하중 포함</span>
           </label>
         </div>
-        <div class="check-item required">
+        <div class="check-item">
           <input type="checkbox" id="c3" class="chk">
           <label for="c3">풍하중 검토 완료
             <span class="sub">지역 풍속, 노풍도, 형상계수 적용</span>
@@ -479,17 +483,17 @@
     <div style="margin-bottom:16px;">
       <div style="font-size:0.82rem; color:#888; margin-bottom:8px;">▸ 부재 및 접합부 검토</div>
       <div class="checklist">
-        <div class="check-item required">
+        <div class="check-item">
           <input type="checkbox" id="c5" class="chk">
           <label for="c5">수직재 좌굴 검토 완료
             <span class="sub">세장비, 유효좌굴길이 적용</span>
           </label>
         </div>
-        <div class="check-item required">
+        <div class="check-item">
           <input type="checkbox" id="c6" class="chk">
           <label for="c6">수평재 휨·전단 검토 완료</label>
         </div>
-        <div class="check-item required">
+        <div class="check-item">
           <input type="checkbox" id="c7" class="chk">
           <label for="c7">클램프·커플러 접합부 검토 완료
             <span class="sub">직교·자재 클램프 허용하중 확인</span>
@@ -511,7 +515,7 @@
     <div style="margin-bottom:16px;">
       <div style="font-size:0.82rem; color:#888; margin-bottom:8px;">▸ 기초 및 지지부 검토</div>
       <div class="checklist">
-        <div class="check-item required">
+        <div class="check-item">
           <input type="checkbox" id="c10" class="chk">
           <label for="c10">기초 지지력 검토 완료
             <span class="sub">지반 허용지지력, 베이스플레이트 크기</span>
@@ -531,13 +535,13 @@
     <div>
       <div style="font-size:0.82rem; color:#888; margin-bottom:8px;">▸ 안전 설비 계획</div>
       <div class="checklist">
-        <div class="check-item required">
+        <div class="check-item">
           <input type="checkbox" id="c13" class="chk">
           <label for="c13">안전난간 설치 계획 포함
             <span class="sub">상부난간대, 중간난간대, 발끝막이판</span>
           </label>
         </div>
-        <div class="check-item required">
+        <div class="check-item">
           <input type="checkbox" id="c14" class="chk">
           <label for="c14">낙하물 방지망 설치 계획 포함</label>
         </div>
@@ -561,17 +565,17 @@
 
   <!-- 제출 서류 -->
   <div class="card" style="border-top: 1px solid #dde3ec;">
-    <div class="section-title">5. 제출 서류 확인 <span class="badge badge-doc">제출</span></div>
+    <div class="section-title">5. 제출 서류 확인 </div>
     <div class="checklist">
-      <div class="check-item required">
+      <div class="check-item">
         <input type="checkbox" id="d1" class="chk">
         <label for="d1">비계 설치 도면 (평면도, 입면도, 상세도)</label>
       </div>
-      <div class="check-item required">
+      <div class="check-item">
         <input type="checkbox" id="d2" class="chk">
         <label for="d2">구조계산서 (초안 또는 완성본)</label>
       </div>
-      <div class="check-item required">
+      <div class="check-item">
         <input type="checkbox" id="d3" class="chk">
         <label for="d3">자재 규격서 및 품질 인증서</label>
       </div>
@@ -633,21 +637,47 @@
     </div>
   </div>
 
-  <!-- 서명란 -->
+  <!-- 구조검토 비용 -->
   <div class="card" style="border-top: 1px solid #dde3ec;">
-    <div class="section-title">8. 확인 서명</div>
-    <div class="sign-grid">
-      <div class="sign-box">
-        <div class="sign-title">의뢰자</div>
-        <div class="sign-line">서명 / 날인</div>
+    <div class="section-title">8. 구조검토 비용 안내</div>
+    <table style="width:100%; border-collapse:collapse; font-size:0.9rem;">
+      <thead>
+        <tr style="background:#1a3a5c; color:#fff;">
+          <th style="padding:10px 14px; text-align:left; border-radius:0;">서비스 구분</th>
+          <th style="padding:10px 14px; text-align:center;">31m 미만</th>
+          <th style="padding:10px 14px; text-align:center;">31m 이상</th>
+          <th style="padding:10px 14px; text-align:center;">소요기간</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr style="border-bottom:1px solid #dde3ec;">
+          <td style="padding:12px 14px; font-weight:600;">비계 도면 제공 시</td>
+          <td style="padding:12px 14px; text-align:center; color:#1a3a5c; font-weight:700;">600,000원</td>
+          <td style="padding:12px 14px; text-align:center; color:#1a3a5c; font-weight:700;">800,000원</td>
+          <td style="padding:12px 14px; text-align:center; color:#555;">영업일 2일</td>
+        </tr>
+        <tr>
+          <td style="padding:12px 14px; font-weight:600;">도면 작업 필요 시</td>
+          <td style="padding:12px 14px; text-align:center; color:#1a3a5c; font-weight:700;">800,000원</td>
+          <td style="padding:12px 14px; text-align:center; color:#1a3a5c; font-weight:700;">1,000,000원</td>
+          <td style="padding:12px 14px; text-align:center; color:#555;">영업일 3일</td>
+        </tr>
+      </tbody>
+    </table>
+    <p style="margin-top:10px; font-size:0.8rem; color:#888;">※ 비계 높이 31m는 건설기술진흥법 시행령에 따라 구조적 안전성을 확인받아야 하는 기준입니다.</p>
+  </div>
+
+  <!-- 구조검토 결과물 -->
+  <div class="card" style="border-top: 1px solid #dde3ec;">
+    <div class="section-title">9. 구조검토 결과물</div>
+    <div class="checklist">
+      <div class="check-item">
+        <span style="font-size:1.1rem; margin-right:4px;">📄</span>
+        <label>비계 구조검토서 PDF <span style="color:#1a3a5c; font-weight:700;">(기술사 날인 포함)</span></label>
       </div>
-      <div class="sign-box">
-        <div class="sign-title">현장소장</div>
-        <div class="sign-line">서명 / 날인</div>
-      </div>
-      <div class="sign-box">
-        <div class="sign-title">검토자 (구조기술사)</div>
-        <div class="sign-line">서명 / 날인</div>
+      <div class="check-item">
+        <span style="font-size:1.1rem; margin-right:4px;">📐</span>
+        <label>도면 캐드 파일 <span style="color:#888; font-size:0.85rem;">(필요한 경우)</span></label>
       </div>
     </div>
   </div>
@@ -700,16 +730,68 @@
     updateProgress();
   }
 
-  // 제출 확인
+  // 제출 확인 + EmailJS 전송
   function submitCheck() {
-    const required = document.querySelectorAll('.check-item.required .chk');
-    const unchecked = [...required].filter(c => !c.checked);
-    if (unchecked.length > 0) {
-      alert(`필수 항목 ${unchecked.length}개가 체크되지 않았습니다.\n필수(★) 항목을 모두 확인해 주세요.`);
-      return;
-    }
-    alert('✅ 모든 필수 항목이 확인되었습니다.\n구조검토 의뢰서를 제출합니다.');
+    // 기본 정보 수집
+    const inputs = document.querySelectorAll('input[type="text"], input[type="number"], textarea');
+    const company = inputs[0]?.value || '(미입력)';
+    const address = inputs[1]?.value || '(미입력)';
+    const client  = inputs[2]?.value || '(미입력)';
+    const contact = inputs[6]?.value || '(미입력)';
+
+    // 선택된 비계 종류
+    const typeEl = document.querySelector('.type-item.selected');
+    const scaffoldType = typeEl ? typeEl.textContent.trim() : '(미선택)';
+
+    // 높이
+    const heightEl = document.querySelectorAll('input[type="number"]')[0];
+    const height = heightEl?.value || '(미입력)';
+
+    // 체크된 항목 수집
+    const checked = [...document.querySelectorAll('.chk:checked')].map(c => {
+      const label = c.nextElementSibling?.firstChild?.textContent?.trim() || '';
+      return '✔ ' + label;
+    }).join('\n');
+
+    // 특기사항
+    const textareas = document.querySelectorAll('textarea');
+    const remarks = textareas[textareas.length - 1]?.value || '(없음)';
+
+    const message = `
+■ 공사명: ${company}
+■ 현장 주소: ${address}
+■ 의뢰업체: ${client}
+■ 담당자 연락처: ${contact}
+■ 비계 종류: ${scaffoldType}
+■ 최대 높이: ${height}m
+
+■ 체크 항목:
+${checked || '(없음)'}
+
+■ 특기사항:
+${remarks}
+    `.trim();
+
+    const btn = document.querySelector('.btn-primary');
+    btn.disabled = true;
+    btn.textContent = '전송 중...';
+
+    emailjs.send('gmail_ipil', 'template_br09y5a', {
+      company_name: company,
+      message: message
+    }).then(() => {
+      btn.disabled = false;
+      btn.textContent = '제출 확인';
+      alert('✅ 의뢰 내용이 전송되었습니다!\n관련 자료가 있으시면 [📎 자료 첨부하기] 버튼을 이용해 주세요.');
+    }).catch(err => {
+      btn.disabled = false;
+      btn.textContent = '제출 확인';
+      alert('전송 중 오류가 발생했습니다. 잠시 후 다시 시도해 주세요.\n' + JSON.stringify(err));
+    });
   }
 </script>
+<!-- EmailJS -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script>emailjs.init('q8B_sWuZ1TpCwFCOV');</script>
 </body>
 </html>
